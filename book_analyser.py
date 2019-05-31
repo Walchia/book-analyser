@@ -16,6 +16,11 @@ def tokenize_book():
     words_sw = [w.lower() for w in tokens]
     words = [w for w in words_sw if w not in sw]
     return words
+
+# Tylko w gałęzi test-branch
+def test():
+    """test"""
+    pass
     
 def main():
     words = tokenize_book()
